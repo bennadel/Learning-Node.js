@@ -1,0 +1,15 @@
+{
+  "name": "angularjs_nodejs",
+  "version": "1.0.0",
+  "description": "This is an experiment in learning Node.js - creating a static file server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Nadel",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "q": "^1.2.0"
+  }
+}

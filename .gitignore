@@ -1,0 +1,2 @@
+# Don't track anything in the node_modules folder as those can be installed using NPM.
+node_modules
