@@ -1,0 +1,35 @@
+
+<h2 ng-switch="!! formController.id">
+	<span ng-switch-when="true">
+		Edit Friend
+	</span>
+	<span ng-switch-when="false">
+		Add New Friend
+	</span>
+</h2>
+
+<form ng-submit="formController.processForm()">
+
+	<p>
+		<strong>Name:</strong>
+	</p>
+
+	<p>
+		<input type="text" ng-model="formController.form.name" size="50" />
+	</p>
+
+	<p>
+		<strong>Description:</strong>
+	</p>
+
+	<p>
+		<textarea ng-model="formController.form.description" rows="8" cols="50"></textarea>
+	</p>
+
+	<p>
+		<button type="submit">Save Friend</button>
+
+		<a href="#/list">Cancel</a>
+	</p>
+
+</form>

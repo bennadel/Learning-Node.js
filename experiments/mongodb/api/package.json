@@ -1,0 +1,17 @@
+{
+  "name": "MongoDB",
+  "version": "1.0.0",
+  "description": "Experimenting with Node/Mongo communication.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ben Nadel",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.8.0",
+    "mongodb": "^2.0.28",
+    "q": "^1.3.0"
+  }
+}

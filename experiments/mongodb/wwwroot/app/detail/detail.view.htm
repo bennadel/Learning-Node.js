@@ -1,0 +1,19 @@
+
+<h2>
+	{{ detailController.friend.name }}
+</h2>
+
+<p>
+	&laquo; 
+	<a href="#/list">Back to List</a>
+	&nbsp;|&nbsp;
+	<a ng-href="#/form?id={{ detailController.friend._id }}">Edit Friend</a>
+</p>
+
+<h3>
+	Description
+</h3>
+
+<p>
+	{{ detailController.friend.description }}
+</p>

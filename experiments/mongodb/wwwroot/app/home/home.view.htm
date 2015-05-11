@@ -1,0 +1,9 @@
+<div 
+	ng-controller="HomeController" 
+	ng-switch="homeController.subview">
+
+	<div ng-switch-when="list" bn-list></div>
+	<div ng-switch-when="view" bn-detail></div>
+	<div ng-switch-when="form" bn-form></div>
+
+</div>

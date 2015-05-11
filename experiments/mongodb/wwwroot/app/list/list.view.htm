@@ -1,0 +1,20 @@
+
+<h2>
+	Friends
+</h2>
+
+<p>
+	<a href="#/form">Add Friend</a>
+</p>
+
+<ul ng-if="listController.friends.length">
+	<li ng-repeat="friend in listController.friends track by friend._id">
+
+		<a ng-href="#/view/{{ friend._id }}">{{ friend.name }}</a>
+
+		&mdash;
+
+		<a ng-click="listController.deleteFriend( friend )">Delete</a>
+
+	</li>
+</ul>
